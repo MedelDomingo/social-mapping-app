@@ -1,0 +1,31 @@
+.main-header__wrapper {
+  padding: 15px;
+  background: #fff;
+}
+
+main {
+  margin-top: 30px;
+}
+.main-header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.main-header__wrapper button {
+  background: none;
+  border: none;
+  outline: 0;
+}
+.main-header__wrapper button span {
+  width: 30px;
+  height: 1px;
+  background: #000;
+  display: block;
+  margin: 10px;
+}
+
+@media (min-width: 1200px) {
+  .main-header__wrapper button {
+    display: none;
+  }
+}

@@ -1,0 +1,13 @@
+.user_item__name h2 {
+  font-size: 14px;
+}
+li a {
+  text-decoration: none;
+  color: #000;
+}
+li {
+  margin-bottom: 15px;
+}
+li img {
+  border-radius: 50%;
+}

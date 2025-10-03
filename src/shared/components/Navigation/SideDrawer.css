@@ -1,0 +1,26 @@
+.side-navigation__wrapper {
+  padding: 15px 0;
+  position: absolute;
+  background: #fff;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 7%);
+  -webkit-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 7%);
+  -moz-box-shadow: 2px 2px 5px 0px rgba(0, 0, 0, 7%);
+  width: 200px;
+}
+.side-navigation__wrapper ul {
+  list-style: none;
+  padding: 0;
+}
+.side-navigation__wrapper ul a {
+  padding: 15px;
+}
+.side-navigation__wrapper ul a.active {
+  font-weight: 600;
+}
+
+.side-navigation__wrapper.active {
+  display: block;
+}

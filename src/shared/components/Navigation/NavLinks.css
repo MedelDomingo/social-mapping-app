@@ -1,0 +1,19 @@
+.main-navigations__links {
+  display: none;
+}
+.main-navigations__links ul {
+  display: flex;
+  align-items: center;
+  list-style: none;
+}
+.main-navigations__links ul li {
+  margin: 0 1rem;
+}
+.main-navigations__links ul li a.active {
+  font-weight: 700;
+}
+@media (min-width: 1200px) {
+  .main-navigations__links {
+    display: block;
+  }
+}
